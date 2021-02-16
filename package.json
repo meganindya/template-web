@@ -7,8 +7,8 @@
     "portfolio"
   ],
   "author": {
-    "name" : "Anindya Kundu",
-    "email" : "anindya.k22@outlook.com",
+    "name": "Anindya Kundu",
+    "email": "anindya.k22@outlook.com",
     "url": "https://meganindya.github.io"
   },
   "license": "MIT",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/meganindya/meganindya.github.io#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0"
   }
 }
