@@ -1,0 +1,23 @@
+{
+  "name": "meganindya.github.io",
+  "version": "0.1.0",
+  "description": "My portfolio website",
+  "private": true,
+  "keywords": [
+    "portfolio"
+  ],
+  "author": {
+    "name" : "Anindya Kundu",
+    "email" : "anindya.k22@outlook.com",
+    "url": "https://meganindya.github.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganindya/meganindya.github.io.git"
+  },
+  "homepage": "https://github.com/meganindya/meganindya.github.io#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
