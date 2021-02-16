@@ -7,7 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = (env) => {
     const options = {
-        entry: './src/ts/main.ts',
+        entry: './src/scripts/main.ts',
         plugins: [
             new HtmlWebpackPlugin({
                 cleanStaleWebpackAssets: false,
