@@ -23,6 +23,9 @@ module.exports = (env) => {
                     removeAttributeQuotes: true
                 }
             }),
+            new MiniCssExtractPlugin({
+                filename: 'style.css'
+            }),
             new CleanWebpackPlugin({
                 cleanStaleWebpackAssets: false
             })
