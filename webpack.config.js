@@ -3,6 +3,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = (env) => {
@@ -25,6 +26,13 @@ module.exports = (env) => {
             }),
             new MiniCssExtractPlugin({
                 filename: 'style.css'
+            }),
+            new CopyWebpackPlugin({
+                patterns: [
+                    { from: 'src/assets/icons/favicon.ico' },
+                    { from: 'src/assets/icons/favicon-192x192.png' },
+                    { from: 'src/assets/icons/apple-touch-icon-180x180.png' }
+                ]
             }),
             new CleanWebpackPlugin({
                 cleanStaleWebpackAssets: false

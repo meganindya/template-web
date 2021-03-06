@@ -25,6 +25,7 @@
     "@typescript-eslint/parser": "^4.15.1",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.0.0",
     "css-loader": "^5.0.2",
     "ejs": "^2.7.4",
     "ejs-html-loader": "^4.0.1",
